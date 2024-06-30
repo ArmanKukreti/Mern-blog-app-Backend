@@ -24,7 +24,7 @@ const PORT = process.env.PORT || 5000
 
 const corsOptions = {
     AccessControlAllowOrigin: "*",
-    origin: ["http:95.141.241.35", "http://localhost:3000", "https://thecryptotrades.com", "http://thecryptotrades.com.thecryptotrades.digital/", "https://thecryptotrades.digital"],
+    origin: ["http://95.141.241.35", "http://localhost:3000", "https://thecryptotrades.com", "http://thecryptotrades.com.thecryptotrades.digital/", "https://thecryptotrades.digital"],
     methods: 'GET,POST,PUT,DELETE,OPTIONS,HEAD,PATCH',
     credentials: true,
 }
